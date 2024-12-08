@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ImageGallery from "../components/ImageGallery.astro";
+---
+
+<Layout title="Galería de Imágenes">
+  <main>
+    <h1 class="text-4xl font-bold text-center my-8 text-white mt-20">
+      Galería de Imágenes
+    </h1>
+    <h3
+      class="text-md font-semibold flex items-center justify-center text-yellow-300 m-4 text-pretty"
+    >
+      Esta es una simple galeria de imagenes con mis estilos personales
+      aplicados para darle un toque mas moderno y asi adaptarlo a mi estandar de
+      proyectos personales
+    </h3>
+    <ImageGallery />
+  </main>
+  <footer class="mt-8">
+    <h4 class="text-center text-white font-semibold text-md">
+      Creado por <a class="underline hover:text-yellow-200 transition-all duration-200" href="https://github.com/xgbdev">@xgbdev</a>
+    </h4>
+  </footer>
+</Layout>
